@@ -6,7 +6,7 @@ from tensorflow.keras.layers import Input, Embedding, Dense, Dropout, Conv1D, Gl
 MAX_SEQ_LEN =15
 
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' #텐서플로우 호환성 땜에 넣어야하는 구문, 의미는 나도 모름
 
 
 # 데이터 읽어오기
