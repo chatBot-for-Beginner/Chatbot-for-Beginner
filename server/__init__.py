@@ -16,6 +16,7 @@ def create_app():
     # orm 설정
     db.init_app(app)
     migrate.init_app(app,db)
+    from . import models
 
     # 블루프린트
     from .api import api
